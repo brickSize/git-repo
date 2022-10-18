@@ -5,3 +5,4 @@ function checkAge(age) {
 let age = prompt('Сколько вам лет?', 18);
 checkAge(age);
 
+alert ('тест автоотправки через visual studio code')
