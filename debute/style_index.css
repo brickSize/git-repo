@@ -1,6 +1,277 @@
-* {
-    margin: 0;
+/*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */
+/* html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6 {
+    margin: 0;  
     padding: 0;
-    border: 0; 
-    outline: 0;
   }
+  h1,h2,h3,h4,h5,h6 {
+    font-size: 100%;  
+    font-weight: normal;
+  } 
+  ul {
+    list-style: none;
+  } 
+  button,input,select,textarea {
+    margin: 0;
+  } 
+  html {
+    box-sizing: border-box;
+  } 
+  *, *:before, *:after { 
+    box-sizing: inherit;
+  }
+  img,embed,iframe,object,audio,video {
+    height: auto;  
+    max-width: 100%;
+  } 
+  iframe {
+    border: 0;
+  } 
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  td,th {
+    padding: 0;  
+    text-align: left;
+  }
+
+  header {
+    position: absolute;
+    width: 856px;
+    height: 23px;
+    left: 811px;
+    top: 78px;
+    } */
+
+.header_group_img {
+    position: absolute;
+    left: 251px;
+    right: 1618,94px;
+    top: 62px;
+    bottom: 963px;
+}
+
+.header_Matheus_Campos {
+    position: absolute;
+    width: 284px;
+    height: 42px;
+    left: 320px;
+    top: 69px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #445964;
+}
+
+.header_home {
+    position: absolute;
+    width: 51px;
+    height: 23px;
+    left: 811px;
+    top: 78px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #445964;
+}
+
+.header_sobre {
+    position: absolute;
+    width: 51px;
+    height: 23px;
+    left: 955px;
+    top: 78px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #445964;
+}
+
+.header_portifólio {
+    position: absolute;
+    width: 82px;
+    height: 23px;
+    left: 1098px;
+    top: 78px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #445964;
+}
+
+.header_serviços {
+    position: absolute;
+    width: 76px;
+    height: 23px;
+    left: 1271px;
+    top: 78px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #445964;
+}
+
+.header_resumo {
+    position: absolute;
+    width: 68px;
+    height: 23px;
+    left: 1437px;
+    top: 78px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #445964;
+}
+
+.header_contato {
+    position: absolute;
+    width: 69px;
+    height: 23px;
+    left: 1598px;
+    top: 78px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #445964;
+}
+
+.main_text {
+    position: absolute;
+    width: 545px;
+    height: 240px;
+    left: 251px;
+    top: 330px;
+}
+
+.main_text_text1 {
+    position: absolute;
+    width: 137px;
+    height: 28px;
+    left: 251px;
+    top: 330px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #445964;
+}
+
+.main_text_text2 {
+    position: absolute;
+    width: 545px;
+    height: 168px;
+    left: 251px;
+    top: 366px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 84px;
+
+    color: #445964;
+}
+
+.main_text_text3 {
+    position: absolute;
+    width: 446px;
+    height: 28px;
+    left: 251px;
+    top: 542px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #445964;
+}
+
+.main_img {
+    position: absolute;
+    width: 705px;
+    height: 697px;
+    left: 963px;
+    top: 289px;
+
+}
+
+.main_button {
+    position: absolute;
+    width: 310px;
+    height: 65px;
+    left: 251px;
+    top: 700px;
+}
+
+.main_git {
+    position: absolute;
+    left: 251 px;
+    right: 1629px;
+    top: 939px;
+    bottom: 9103px;
+}
+
+.main_linkedin {
+    position: absolute;
+    width: 39.92px;
+    height: 39.92px;
+    left: 317.04px;
+    top: 937px;
+}
+
+.main_instagram {
+    position: absolute;
+    width: 39.92px;
+    height: 39.92px;
+    left: 383.08px;
+    top: 940.63px;
+}
+
+.main_button_feedback {
+    position: absolute;
+    width: 241px;
+    height: 28px;
+    left: 282px;
+    top: 719px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
