@@ -260,18 +260,29 @@
     top: 940.63px;
 }
 
+.main_button {
+  position: absolute;
+  width: 310px;
+  height: 65px;
+  left: 251px;
+  top: 700px;
+     
+  background: #263138;
+  border-radius: 20px;
+}
+
 .main_button_feedback {
-    position: absolute;
-    width: 241px;
-    height: 28px;
-    left: 282px;
-    top: 719px;
+  position: fixed;
+  width: 241px;
+  height: 28px;
+  left: 282px;
+  top: 719px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 28px;
-
-    color: #FFFFFF;
+  color: #FFFFFF;
 }
