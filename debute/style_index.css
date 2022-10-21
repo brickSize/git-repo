@@ -286,3 +286,197 @@
 
   color: #FFFFFF;
 }
+
+.matheus_about {
+  position: absolute;
+  width: 183px;
+  height: 207px;
+  left: 868px;
+  top: 55px;
+
+  background: url(matheus_about.png);
+}
+
+.about_text_main {
+  position: absolute;
+  width: 504px;
+  height: 75px;
+  left: 708px;
+  top: 277px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 75px;
+  /* identical to box height */
+
+
+  color: #445964;
+}
+
+.about_text_speach {
+  position: absolute;
+  width: 1032px;
+  height: 56px;
+  left: 444px;
+  top: 376px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-feature-settings: 'pnum' on, 'onum' on;
+
+  color: #445964;
+}
+
+.hard_skills_text {
+  position: absolute;
+  width: 316px;
+  height: 75px;
+  left: 802px;
+  top: 540px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 75px;
+  /* identical to box height */
+
+
+  color: #263138;
+}
+
+.hard_skills_python {
+  position: absolute;
+  width: 116px;
+  height: 42px;
+  left: 509px;
+  top: 677px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #445964;
+}
+
+.hard_skills_html {
+  position: absolute;
+  width: 99px;
+  height: 42px;
+  left: 779px;
+  top: 677px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  
+  color: #445964;
+}
+
+.hard_skills_react {
+  position: absolute;
+  width: 94px;
+  height: 42px;
+  left: 1044px;
+  top: 677px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #445964;
+}
+
+.hard_skills_c {
+  position: absolute;
+  width: 24px;
+  height: 42px;
+  left: 1341px;
+  top: 677px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #445964;
+}
+
+.hard_skills_javascript {
+  position: absolute;
+  width: 175px;
+  height: 42px;
+  left: 480px;
+  top: 846px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #445964;
+}
+
+.hard_skills_css {
+  position: absolute;
+  width: 69px;
+  height: 42px;
+  left: 794px;
+  top: 846px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #445964;
+}
+
+.hard_skills_mysql {
+  position: absolute;
+  width: 118px;
+  height: 42px;
+  left: 1032px;
+  top: 846px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #445964;
+}
+
+.hard_skills_postgres {
+  position: absolute;
+  width: 147px;
+  height: 42px;
+  left: 1279px;
+  top: 846px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #445964;
+}
