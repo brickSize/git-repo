@@ -39,11 +39,16 @@ body {
 /*------------------------главный блок---------------*/
 .wrapper {
     min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 /*--------------------ограничивающий конт------------*/
 ._container {
     max-width: 1417px;
+    padding: 0px 15px;
     margin: 0px auto;
+    box-sizing: content-box;
 }
 /*-----------------------хедер-----------------------*/
 .header {
@@ -58,26 +63,71 @@ body {
     min-height: 117px;
     align-items: center;
 }
+@media (max-width: 479px) {
+    .header__container {
+        min-height: 215px;
+    }
+}
 .header__logo {
     font-size: 36px;
     font-weight: 900;
     color: inherit;
 }
 .header__menu {
-margin: 0px 0px 0px 200px;
+margin: 0px 0px 0px 140px;
+}
+@media (max-width: 2560px) {
+    .header__menu {
+        margin: 0px 0px 0px 200px;
+    }
+}
+@media (max-width: 992px) {
+    .header__menu {
+        margin: 0px 0px 0px 160px;
+    }
+}
+@media (max-width: 768px) {
+    .header__menu {
+        margin: 0px 0px 0px 100px;
+    }
+}
+@media (max-width: 479px) { 
+    .header__menu {
+        margin: 0px 0px 0px 30px;
+    }
 }
 .menu {
-
+    padding: 5px 0;
 }
 .menu__list {
+    flex-wrap: wrap;
     display: flex;
 }
 .menu__item {
+
 }
 .menu__item:not(:last-child) {
-    margin: 0px 93px 0px 0px;
+    margin: 0px 70px 0px 0px;
+}
+@media (max-width: 992px) {
+    .menu__item:not(:last-child) {
+        margin: 0px 40px 0px 0px;
+    }
 }
 .menu__link {
     color: inherit;
-    line-height: 100%;
+    line-height: 120%;
+}
+@media (max-width: 479px) { 
+    .menu__link {
+        font-size: 26px;
+    }
+}
+/*-----------------------мейн------------------------*/
+.page {
+    flex: 1 1 auto;
+}
+/*-----------------------футер-----------------------*/
+.footer {
+
 }
