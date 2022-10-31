@@ -52,7 +52,7 @@ body {
 }
 /*-----------------------хедер-----------------------*/
 .header {
-    position: fixed;
+    position: relative;
     width: 100%;
     left: 0;
     top: 0;
@@ -123,11 +123,25 @@ margin: 0px 0px 0px 140px;
         font-size: 26px;
     }
 }
-/*-----------------------мейн------------------------*/
+/*-----------------------page------------------------*/
 .page {
     flex: 1 1 auto;
 }
+.page__main-block {
+}
 /*-----------------------футер-----------------------*/
 .footer {
-
+}
+/*-----------------------мейн-----------------------*/
+.main-block__body {
+}
+.preview-block__text {
+}
+.main-block__title {
+}
+.main-block__text {
+}
+.main-block__buttons {
+}
+.main-block__button {
 }
