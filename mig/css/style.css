@@ -4,7 +4,7 @@
     src: url(/mig/fonts/Gilroy-Light.otf);
     src: url(/mig/fonts/Gilroy-ExtraBold.otf); /* Путь к файлу со шрифтом */
   }
-    * {
+  * {
     padding: 0;
     margin: 0;
     border: 0;
