@@ -1,0 +1,133 @@
+/* Обнуление */
+@font-face {
+    font-family: Gilroy; /* Имя шрифта */
+    src: url(/mig/fonts/Gilroy-Light.otf);
+    src: url(/mig/fonts/Gilroy-ExtraBold.otf); /* Путь к файлу со шрифтом */
+}
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 400;
+}
+input,button,textarea{font-family:inherit;}
+a{color: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+.wrapper {
+    height: 100%;
+	width: 100%;
+    display: flex;
+    justify-content: center;
+}
+._container {
+    display: flex;
+    width: 78%;
+    height: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin: 5px;
+}
+.header {
+    display: flex;
+    width: 100%;
+    height: 164px;
+    align-self: flex-start;
+    margin-bottom: auto;
+    align-items: flex-end;
+}
+.header__logo {
+    display: flex;
+    margin-right: auto;
+    flex-direction: column;
+}
+.header__logo_img {
+    width: 100%;
+}
+.header__logo_text {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 114.8%;
+}
+.header__phone {
+    display: flex;
+    margin-right: auto;
+}
+.header__phone_img {
+    width: 21px;
+    height: 21px;
+}
+.header__phone_text {
+    padding-left: 10px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 126.8%;
+}
+.header__nav {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: auto;
+    flex-grow: 0.3;
+}
+.about {
+    display: flex;
+    margin: auto;
+}
+.teach {
+    display: flex;
+    margin: auto;
+}
+.teach_text {
+    color: #FFC700;
+}
+.technic {
+    display: flex;
+    margin: auto;
+}
+.contacts {
+    display: flex;
+    margin: auto;
+}
+.header__conversion {
+    display: flex;
+    margin-right: auto;
+}
+.conversion__button {
+    width: 180.91px;
+    height: 50px;
+    background-color: #FFC700;
+}
+/*--------------------*/    
