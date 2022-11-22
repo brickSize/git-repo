@@ -98,7 +98,7 @@
     display: flex;
     width: 78%;
     height: 100%;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-start;
     margin: 5px;
@@ -109,9 +109,12 @@
     width: 100%;
     height: 65px;
     align-self: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
     margin-bottom: auto;
     margin: 98px 0px 0px 0px;
     justify-content: space-between;
+    position: relative;
   }
   .header__logo {
     display: flex;
@@ -159,12 +162,40 @@
   }
   .header__conversion {
     display: flex;
-    /* padding-left: 7.5%; */
   }
   .conversion__button {
     width: 180.91px;
     height: 50px;
     background-color: #ffc700;
   }
+  .main__img_fone {
+    position: absolute;
+    z-index: -50;
+    padding-top: 75%;
+    padding-left: 19%;
+  }
   /*--------------------*/
-  
+  .main {
+    width: 100%;
+  }
+  .main__img_moto {
+    position: absolute;
+    width: 1186px;
+    height: 998px;
+    padding-top: 5%;
+    padding-left: 20%;  
+  }
+  .main__img_cone {
+  }
+  .main__img_cone_blure {
+  }
+  .main__title_text_white {
+  }
+  .main__title_text_orange {
+  }
+  .main__main_text {
+  }
+  .main__main_button1 {
+  }
+  .conversion__button_main {
+  }
