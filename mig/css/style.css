@@ -88,13 +88,13 @@
     font-weight: 400;
   }
   /*--------------------*/
-  .wrapper {
+  .container {
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
   }
-  ._container {
+  ._wrapper {
     display: flex;
     width: 78%;
     height: 100%;
@@ -107,16 +107,14 @@
   .header {
     display: flex;
     width: 100%;
-    /*height: 164px;*/
     height: 65px;
     align-self: flex-start;
     margin-bottom: auto;
     margin: 98px 0px 0px 0px;
+    justify-content: space-between;
   }
   .header__logo {
     display: flex;
-    margin-right: auto;
-    margin-top: auto;
     flex-direction: column;
   }
   .header__logo_img {
@@ -130,7 +128,6 @@
   }
   .header__phone {
     display: flex;
-    margin-right: auto;
   }
   .header__phone_img {
     width: 21px;
@@ -145,32 +142,24 @@
   }
   .header__nav {
     display: flex;
-    justify-content: flex-start;
-    margin-right: auto;
-    flex-grow: 0.2;
   }
   .about {
-    display: flex;
-    /* margin: auto; */
   }
   .teach {
-    display: flex;
-    margin: auto;
+    padding-left: 48px;
   }
   .teach_text {
     color: #ffc700;
   }
   .technic {
-    display: flex;
-    margin: auto;
+    padding-left: 48px;
   }
   .contacts {
-    display: flex;
-    /* margin: auto; */
+    padding-left: 48px;
   }
   .header__conversion {
     display: flex;
-    margin-right: auto;
+    /* padding-left: 7.5%; */
   }
   .conversion__button {
     width: 180.91px;
