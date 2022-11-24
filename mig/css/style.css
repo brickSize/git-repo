@@ -45,6 +45,14 @@
     font-family: Gilroy;
     font-style: normal;
     font-weight: 400;
+    background-image: url(/mig/img/Vector.png);
+    background-repeat: no-repeat;
+    background-position-y: 10%;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   input,
   button,
@@ -168,34 +176,66 @@
     height: 50px;
     background-color: #ffc700;
   }
-  .main__img_fone {
-    position: absolute;
-    z-index: -50;
-    padding-top: 75%;
-    padding-left: 19%;
-  }
   /*--------------------*/
   .main {
+    display: flex;
     width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .main__img {
+    display: flex;
   }
   .main__img_moto {
-    position: absolute;
+    display: flex;
     width: 1186px;
     height: 998px;
-    padding-top: 5%;
-    padding-left: 20%;  
+    z-index: 1;
+    top: 50%;
+    bottom: 50%;
   }
   .main__img_cone {
+    width: 283px;
+    height: 362px;
+    z-index: 2;
   }
   .main__img_cone_blure {
+    width: 161px;
+    height: 205px;
+  }
+  .main__text {
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
   }
   .main__title_text_white {
+    display: flex;
+    width: 795.86px;
+    height: 117.87px;
+    font-weight: 900;
+    font-size: 110.693px;
+    line-height: 118px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
   }
   .main__title_text_orange {
+    margin-top: auto;
+    display: flex;
+    width: 480px;
+    height: 236px;
+    font-weight: 900;
+    font-size: 110.693px;
+    line-height: 118px;
+    text-transform: uppercase;
+    color: #FFC700;
   }
   .main__main_text {
+    display: flex;
   }
   .main__main_button1 {
+    display: flex;
   }
   .conversion__button_main {
   }
