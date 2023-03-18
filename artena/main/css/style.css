@@ -497,6 +497,7 @@ footer {
 }
 .footer_text_copyright {
     align-self: center;
+    justify-self: center;
     margin-left: auto;
     margin-right: 88px;
 
@@ -864,7 +865,7 @@ and (-webkit-device-pixel-ratio: 3) {
         max-width: 347px;
     }
     .case_text_block_up {
-        width: 272px;
+        max-width: 272px;
     }
     .case_img_block {
         display: block;
@@ -875,11 +876,111 @@ and (-webkit-device-pixel-ratio: 3) {
         height: 250px;
     }
     .case_img_discount {
-        width: 293.33px;
-        margin: -50px 0px;
+        max-width: 293.33px;
+        margin: -60px 0px;
     }
+    .case_text_block_down {
+        display: flex;
+        flex-direction: column;    
 
+        max-width: 347px;
+        font-family: 'Beeline Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+    }
+    .case_text_block_down a {
+        margin-top: 42px;
+        justify-self: flex-start;
+        align-self: flex-start;
+    }
+    .conversion_block {
+        margin-top: -60px;
+    }
+    .conversion_block_star {
+        justify-self: flex-end;
+        align-self: flex-end;
+        max-width: 123px;
+    }
+    .conversion_block_img {
+        max-width: 394.91px;
+    }
+    .conversion_block_form{
+        width: 347px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .conversion_form{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .conversion_block_form input {
+        width: 347px;
 
+        background: transparent;
+        border: 0;
+        border-bottom: solid #C4C4C4;
+
+        font-family: 'Beeline Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 46.7317px;
+        line-height: 150%;
+    }
+    .conversion_block_form button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 14.4167px 29.6814px;
+        gap: 8.48px;
+        margin-top: 10px;
+
+        max-width: 346px;
+    }
+    .conversion_block_form button p {
+        max-width: 230px;
+        font-family: 'Beeline Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32.2255px;
+        line-height: 35px;
+    }
+    .command {
+        margin-top: 110px;
+    }
+    .command_photo_block {
+        margin-top: -20px;
+    }
+    footer {
+        margin-top: -150px;
+        height: 121px;
+    }
+    .footer {
+        max-width: 391px;
+        height: 121px;
+    }
+    .lable {
+        margin-left: 22px;
+        width: 73.84px;
+        height: 41.91px;
+    }
+    .footer_text_copyright {
+        max-width: 68px;
+        margin-right: 28px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .logo_footer {
+        margin-right: 22px;
+        width: 43.59px;
+        height: 38.22px;
+    }
 }
 
 
