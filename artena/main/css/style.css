@@ -981,6 +981,77 @@ and (-webkit-device-pixel-ratio: 3) {
         width: 43.59px;
         height: 38.22px;
     }
+    .iw-modal-wrapper {
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+    .iw-CSS-modal-inner {
+        width: 377px;
+        height: 360.69px;
+    }
+    .iw-modal-header {
+        padding: 10px 66px 0px 17px;
+    }
+    .iw-modal-text {
+        margin-top: 22px;
+        margin-bottom: 0px;
+    }
+    .iw-modal-title {
+        width: 294px;
+        height: 78px;
+
+        font-family: 'Beeline Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 120%;
+        text-transform: uppercase;
+    }
+    .iw-modal-text input {
+        max-width: 340.55px;
+        height: 57.56px;
+
+        font-family: 'Beeline Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17.2672px;
+        line-height: 120%;
+    }
+    .iw-modal-phone {
+        margin-top: 14px;
+        margin-bottom: 0px;
+    }
+    .iw-modal-phone input {
+        max-width: 340.55px;
+        height: 57.56px;
+
+        font-family: 'Beeline Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17.2672px;
+        line-height: 120%;
+    }
+    .modal_send {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 19px 111px;
+        gap: 10px;
+
+        width: 327px;
+        height: 64px;
+    }
+    .modal_send p {
+        width: 105px;
+        height: 26px;
+
+        font-family: 'Beeline Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 120%;
+    }
+
 }
 
 
