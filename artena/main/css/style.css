@@ -1,0 +1,897 @@
+/* Обнуление */
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul,
+ol,
+li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+    height: auto;
+    width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 16px;
+    color: #000;
+    font-family: Beeline Sans;
+    background-color: #F3F3F3;
+}
+@font-face {
+    font-family: 'Beeline Sans';
+    src: url(/artena/main/css/fonts/BEELINESANS-BLACK.TTF);
+    src: url(/artena/main/css/fonts/BEELINESANS-BOLD.TTF);
+    src: url(/artena/main/css/fonts/BEELINESANS-MEDIUM.TTF);
+    src: url(/artena/main/css/fonts/BEELINESANS-REGULAR.TTF);
+}
+/*------------------------главный контейнер---------------*/
+.wrapper {
+   min-width: 100%;
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    padding: 63px 61px;
+
+    background-image: url(/artena/main/css/baground_image/star1.svg), url(/artena/main/css/baground_image/star2.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 100% bottom 100%, 200% 37%;
+}
+ /* ------------ header ----------------- */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: auto;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+}
+.right_block_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 53px;
+}
+.phone_number {
+    font-family: 'Beeline Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.conversion_button_block {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 17px 35px;
+    gap: 10px;
+
+    background: #E33A30;
+    border-radius: 4px;
+}
+.conversion_button_block:hover{
+    background: #FFA29C;
+}
+.conversion_button_block:active{
+    background: #CC3930;;
+}
+.header_button {
+    font-family: 'Beeline Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+
+    background: inherit;
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+/*---------------- 1 блок main  ------------------*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding-left: 203px;
+    padding-right: 211px;
+}
+.main_utp_block {
+    display: grid;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 255px;
+}
+.main_utp_text {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 33px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.main_utp_text p {
+    display: grid;
+    grid-column: 2;
+    
+    font-family: 'Beeline Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+
+    color: #000000;
+}
+/*---------------- 2 блок main secondary ------------------*/
+.secondary_utp {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0px;
+    gap: 89px;
+    margin-top: 230px;
+}
+.secondary_utp_block {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 201px;
+
+    width: 1169px;
+    height: 264px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.secondary_utp_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 25px;
+
+    width: 484px;
+    height: 264px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.secondary_utp_text h3 {
+    width: 300px;
+    height: 64px;
+
+    font-family: 'Beeline Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 120%;
+
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.secondary_utp_text p {
+    width: 484px;
+    height: 175px;
+
+    font-family: 'Beeline Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+
+    color: #000000;
+    font-stretch: 151;
+    font-variation-settings: 'GRAD' 116, 'slnt' 0, 'XTRA' 603, 'XOPQ' 108, 'YOPQ' 118, 'YTLC' 486, 'YTUC' 712, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.secondary_utp_text_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 25px;
+
+    width: 484px;
+    height: 264px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.secondary_utp_text_2 h3 {
+    width: 357px;
+    height: 64px;
+
+    font-family: 'Beeline Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 120%;
+
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.secondary_utp_text_2 p {
+    width: 484px;
+    height: 175px;
+
+    font-family: 'Beeline Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+
+    color: #000000;
+    font-stretch: 151;
+    font-variation-settings: 'GRAD' 116, 'slnt' 0, 'XTRA' 603, 'XOPQ' 108, 'YOPQ' 118, 'YTLC' 486, 'YTUC' 712, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+/*---------------- 3 блок main case ------------------*/
+.case {
+    display: flex;
+    flex-direction: column;
+    margin-top: 188px;
+}
+.case_img_block {
+    display: grid;
+    position: relative;
+    margin-top: 78.48px;
+}
+.case_img_laptop {
+    width: 1051px;
+    height: 758.03px;
+    align-self: center;
+    justify-self: right;
+    position: relative;
+    z-index: 0;
+}
+.case_img_discount {
+    width: 764.75px;
+    height: 209.27px;
+    position: absolute;
+    align-self: flex-end;
+    justify-self: flex-start;
+    padding-top: 100px;
+    z-index: 1;
+}
+.case_text_block_down {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 205px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.case_text_block_down p {
+    font-family: 'Beeline Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.case_text_block_down a {
+    align-self: flex-end;
+    justify-self: flex-end;
+    font-family: 'Beeline Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+
+    color: #E33A30; 
+    text-decoration-line: underline;
+}
+/*---------------- 4 блок main conversion_block------------------*/
+.conversion_block {
+    margin-top: 107px;
+}
+.conversion_block_star {
+    margin-left: 60%;
+
+    width: 233px;
+    height: 233px;
+}
+.conversion_form {
+    display: flex;
+    justify-content: space-between;
+}
+.conversion_block_form input {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 17px;
+    outline:none;
+
+    width: 569px;
+    height: 128px;
+
+    background: transparent;
+    border: 0;
+    border-bottom: solid #C4C4C4;
+
+    font-family: 'Beeline Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 150%;
+
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.conversion_block_form button {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 35px;
+    gap: 10px;
+    align-self: flex-end;
+    justify-self: flex-end;
+
+    width: 408px;
+    height: 107px;
+
+    background: #E33A30;
+    border-radius: 7px;
+}
+.conversion_block_form button:hover{
+    background: #FFA29C;
+}.conversion_block_form button:active{
+    background: #CC3930;;
+}
+.conversion_block_form button p {
+    width: 271px;
+    height: 41px;
+
+    font-family: 'Beeline Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 41px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+/*---------------- 5 блок main command ------------------*/
+.command {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 89px;
+    margin-top: 294px;
+    margin-bottom: 235px;
+}
+.command_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+}
+.command_text p {
+    width: 88px;
+    height: 36px;
+
+    font-family: 'Beeline Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+
+    color: #000000;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.command_text img{
+    margin-top: 10px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.command_photo_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+/*---------------- footer ------------------*/
+footer {
+    background-color: #000000;
+    color: white;
+    display: block;
+    height: 155px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+
+    margin: 0 auto;
+    width: 1366px;
+    height: 155px;
+}
+.lable {
+    display: inline-flex;
+    align-self: center;
+    justify-self: flex-start;
+
+    width: 236px;
+    height: 63px;
+}
+.lable :not(:first-child) {
+    padding-left: 17px;
+}
+.footer_text_copyright {
+    align-self: center;
+    margin-left: auto;
+    margin-right: 88px;
+
+    width: 109px;
+    height: 19px;
+}
+.footer_text_copyright p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #DDDDDD;
+}
+.logo_footer {
+    align-self: center;
+    justify-self: right;
+}
+/*---------------- modal ------------------*/
+/*CSS-свойства для заднего фона*/
+.iw-modal {
+    opacity: 0; /*изначально этот блок должен быть прозрачным*/ 
+    background: rgba(60, 60, 60, 0.8); /*задаём цвет фона*/
+    pointer-events: none; /*делаем чтобы по элементу нельзя было кликнуть когда он прозрачный*/
+    position: fixed; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    transition: all 0.5s ease-in-out;
+    margin: 0;
+    padding: 0;
+    }
+    .iw-modal:target {
+    opacity: 1; /*при клике блок становится видимым*/
+    pointer-events: auto; /*теперь по блоку можно кликать мышкой*/
+    overflow-y: auto; /*прокрутка по вертикли страницы*/
+}
+.iw-modal-wrapper {
+    margin:auto; /*выравниваем модальное окно по центру по горизонтали*/
+    margin-top:25vh; /*отступ сверху можно задавать в px, % или vh*/
+}
+/*CSS-свойства для блока, содержащего контент модального окна */ 
+.iw-CSS-modal-inner {
+    position: relative;
+    background: #fff; /*цвет фона*/
+    border: 1px solid #ccc; /*цвет и толщина рамки*/
+    border-radius: 0px; /*радиус скругления углов*/
+
+    width: 600px;
+    height: 580px;
+}
+/*CSS-свойства заголовка модального окна */
+.iw-modal-header {
+    padding: 27px;/*внутренний отступ*/
+    background:#FFFFFF;;/*цвет фона*/
+    position:relative;
+}
+.iw-modal-title {
+    width: 403px;
+    height: 123px;
+
+    font-family: 'Beeline Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 120%;
+
+    text-transform: uppercase;
+    color: #000000;
+}
+/*CSS для кнопки закрытия*/
+.iw-close {
+    position:absolute;
+    top:5px; /*отступ сверху*/
+    right:20px; /*отступ справа*/
+    font-size: 70px; /*размер шрифта*/
+    color: #A2A2A2; /*цвет шрифта*/
+    text-decoration: none;
+    border-radius: 1.55319px;
+}
+.iw-close:hover, .iw-close:focus {
+    color: #000;
+}
+/*CSS для блока с текстом*/
+.iw-modal-text {
+    margin: 28px 21px;
+}
+.iw-modal-text input {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 36px 30px;
+    gap: 10px;
+
+    width: 551px;
+    height: 92px;
+
+    background: #F4F4F4;
+    border-radius: 6px;
+
+    font-family: 'Beeline Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 120%;
+        
+    color: #000000;
+}
+.iw-modal-phone {
+    margin: 28px 21px;
+}
+.iw-modal-phone input {   
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 36px 30px;
+    gap: 10px;
+            
+    width: 551px;
+    height: 92px;
+
+    background: #F4F4F4;
+    border-radius: 6px;
+
+    font-family: 'Beeline Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 120%;
+
+    color: #000000;
+}
+/**MEDIA**/
+@media (min-width: 550px) {
+.iw-modal-wrapper {
+    max-width: 500px;
+}
+}
+.modal_send {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 180px;
+    gap: 17px;
+    margin: 21px;
+
+    width: 551px;
+    height: 106px;
+
+    background: #E33A30;
+    border-radius: 6px;
+}
+.modal_send p {
+    width: 181px;
+    height: 46px;
+
+    font-family: 'Beeline Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 120%;
+
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+}
+.popup__overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(60, 60, 60, 0.8);
+}
+/*iPhone 14*/
+@media only screen
+and (width: 390px) 
+and (device-height: 844px)
+and (-webkit-device-pixel-ratio: 3) {
+    .container {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 390px;
+        padding: 26px 22px 0px 22px;
+
+        background-image: url(/artena/main/icon/мобилка/Star\ 1.svg);
+        background-repeat: no-repeat;
+        background-position: right 100% bottom 100%;
+    }
+    .header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 39px;
+
+        width: 346px;
+        height: 38.22px;
+    }
+    .logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 0px;
+        gap: 6.71px;
+
+        width: 43.59px;
+        height: 38.22px;
+    }
+    .right_block_header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 0px;
+        gap: 30.66px;
+
+        width: 263px;
+        height: 30.67px;
+    }
+    .phone_number {
+        width: 120px;
+        height: 25px;
+
+        font-family: 'Beeline Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 150%;
+    }
+    .conversion_button_block {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 9.83372px 20.2459px;
+        gap: 5.78px;
+
+        width: 112.49px;
+        height: 30.67px;
+    }
+    .header_button {
+        width: 72px;
+        height: 11px;
+        
+        font-family: 'Beeline Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 11px;
+    }
+    main {
+        display: flex;  
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+
+        max-width: 347px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .main_utp_block {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+
+        margin-top: 106px;
+
+        max-width: 347px;
+    }
+    .main_utp_text {
+        display: flex;
+
+        max-width: 347px;
+        margin-top: 37px;
+    }
+    .main_utp_text p {
+        font-family: 'Beeline Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+
+        color: #000000;
+    }
+    .secondary_utp {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 46px;
+
+        max-width: 347px;
+        margin-top: 74px;
+    }
+    .secondary_utp_block {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 25px;
+
+        max-width: 347px;
+    }
+    .secondary_utp_text {
+        max-width: 347px;
+    }
+    .secondary_utp_text h3 {
+        width: 259px;
+
+        font-family: 'Beeline Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 120%;
+
+        color: #000000;
+    }
+    .secondary_utp_text p {
+        max-width: 347px;
+
+        font-family: 'Beeline Sans';
+        font-style: normal;
+        font-weight: 775;
+        font-size: 20px;
+        line-height: 150%;
+    }
+    .secondary_utp_text_2 {
+        margin-top: 109px;
+        max-width: 347px;
+
+        font-family: 'Beeline Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 120%;
+
+        color: #000000;
+    }
+    .secondary_utp_text_2 h3 {
+        width: 317px;
+
+        font-family: 'Beeline Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 120%;
+    }
+    .secondary_utp_text_2 p {
+        max-width: 347px;
+
+        font-family: 'Beeline Sans';
+        font-style: normal;
+        font-weight: 775;
+        font-size: 20px;
+        line-height: 150%;
+    }
+    .case {
+        margin-top: 621px;
+        max-width: 347px;
+    }
+    .case_text_block_up {
+        width: 272px;
+    }
+    .case_img_block {
+        display: block;
+        margin-top: 42px;
+    }
+    .case_img_laptop {
+        max-width: 347px;
+        height: 250px;
+    }
+    .case_img_discount {
+        width: 293.33px;
+        margin: -50px 0px;
+    }
+
+
+}
+
+
+
+/* iPhone 14 Pro
+@media only screen
+    and (width: 393px) 
+    and (device-height: 852px)
+    and (-webkit-device-pixel-ratio: 3) { }*/
+
+/*iPhone 14 Pro Max
+@media only screen
+    and (device-width: 430px) 
+    and (device-height: 932px) 
+    and (-webkit-device-pixel-ratio: 3) { } */
