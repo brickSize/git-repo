@@ -286,6 +286,9 @@ main {
     flex-direction: column;
     margin-top: 188px;
 }
+.case_text_block_up {
+    width: 514.61px;
+}
 .case_img_block {
     display: grid;
     position: relative;
