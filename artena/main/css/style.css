@@ -40,10 +40,10 @@ body {
 }
 @font-face {
     font-family: 'Beeline Sans';
-    src: url(/artena/main/css/fonts/BEELINESANS-BLACK.TTF);
-    src: url(/artena/main/css/fonts/BEELINESANS-BOLD.TTF);
-    src: url(/artena/main/css/fonts/BEELINESANS-MEDIUM.TTF);
-    src: url(/artena/main/css/fonts/BEELINESANS-REGULAR.TTF);
+    src: url(css/fonts/BEELINESANS-BLACK.TTF);
+    src: url(css/fonts/BEELINESANS-BOLD.TTF);
+    src: url(css/fonts/BEELINESANS-MEDIUM.TTF);
+    src: url(css/fonts/BEELINESANS-REGULAR.TTF);
 }
 /*------------------------главный контейнер---------------*/
 .wrapper {
@@ -55,7 +55,7 @@ body {
     max-width: 1920px;
     padding: 63px 61px;
 
-    background-image: url(/artena/main/css/baground_image/star1.svg), url(/artena/main/css/baground_image/star2.svg);
+    background-image: url(css/background_image/star1.svg), url(css/background_image/star2.svg);
     background-repeat: no-repeat, no-repeat;
     background-position: right 100% bottom 100%, 200% 37%;
 }
