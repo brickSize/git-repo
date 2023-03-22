@@ -40,10 +40,10 @@ body {
 }
 @font-face {
     font-family: 'Beeline Sans';
-    src: url(css/fonts/BEELINESANS-BLACK.TTF);
-    src: url(css/fonts/BEELINESANS-BOLD.TTF);
-    src: url(css/fonts/BEELINESANS-MEDIUM.TTF);
-    src: url(css/fonts/BEELINESANS-REGULAR.TTF);
+    src: url(.fonts/BEELINESANS-BLACK.TTF);
+    src: url(.fonts/BEELINESANS-BOLD.TTF);
+    src: url(./fonts/BEELINESANS-MEDIUM.TTF);
+    src: url(./fonts/BEELINESANS-REGULAR.TTF);
 }
 /*------------------------главный контейнер---------------*/
 .wrapper {
@@ -55,7 +55,7 @@ body {
     max-width: 1920px;
     padding: 63px 61px;
 
-    background-image: url(css/background_image/star1.svg), url(css/background_image/star2.svg);
+    background-image: url(./background_image/star1.svg), url(./background_image/star2.svg);
     background-repeat: no-repeat, no-repeat;
     background-position: right 100% bottom 100%, 200% 37%;
 }
@@ -867,7 +867,7 @@ and (-webkit-device-pixel-ratio: 3) {
         margin-top: 621px;
         max-width: 347px;
     }
-    .case_text_block_up {
+    .case_text_block_up img {
         max-width: 272px;
     }
     .case_img_block {
