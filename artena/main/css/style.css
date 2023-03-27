@@ -294,14 +294,151 @@ main {
     position: relative;
     margin-top: 78.48px;
 }
+/* --------------------------- slider ---------------------  */
 .case_img_laptop {
     width: 1051px;
     height: 758.03px;
     align-self: center;
     justify-self: right;
     position: relative;
-    z-index: 0;
+    z-index: 1;
 }
+.case_img_laptop_slider img {
+    position: absolute;
+    left: 0;
+    width: 962.9px;
+    height: 670.96px;
+    -webkit-transition: opacity 2s ease-in-out;
+    -moz-transition: opacity 2s ease-in-out;
+    -o-transition: opacity 2s ease-in-out;
+    transition: opacity 2s ease-in-out;
+    border-radius: 40px;
+    z-index: 0;
+
+    top: 50%;
+    left: 50%;
+    max-width: 962.9px;
+    max-height: 670.96px;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    border-radius: 40px;
+}
+@media only screen
+and (width: 390px) 
+and (device-height: 844px)
+and (-webkit-device-pixel-ratio: 3) {
+    .case_img_laptop_slider img {
+        max-width: 317.91px;
+        max-height: 221.53px;
+    }
+}
+@-webkit-keyframes ImgAnimation {
+    0% {
+        opacity:1;
+    }
+    40% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:0;
+    }
+    }
+@-moz-keyframes ImgAnimation {
+    0% {
+        opacity:1;
+    }
+    40% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:0;
+    }
+    }
+@-o-keyframes ImgAnimation {
+    0% {
+        opacity:1;
+    }
+    40% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:0;
+    }
+    }
+@keyframes ImgAnimation {
+    0% {
+        opacity:1;
+    }
+    40% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:0;
+    }
+    }
+.case_img_laptop_slider img.firstimg {
+    -webkit-animation-name: ImgAnimation;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-direction: alternate;
+
+    -moz-animation-name: ImgAnimation;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-duration: 3s;
+    -moz-animation-direction: alternate;
+
+    -o-animation-name: ImgAnimation;
+    -o-animation-timing-function: ease-in-out;
+    -o-animation-iteration-count: infinite;
+    -o-animation-duration: 3s;
+    -o-animation-direction: alternate;
+
+    animation-name: ImgAnimation;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-direction: alternate;
+}
+.case_img_laptop_slider img.secondimg {
+    -webkit-animation-name: ImgAnimation;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-direction: alternate;
+
+    -moz-animation-name: ImgAnimation;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-duration: 6s;
+    -moz-animation-direction: alternate;
+
+    -o-animation-name: ImgAnimation;
+    -o-animation-timing-function: ease-in-out;
+    -o-animation-iteration-count: infinite;
+    -o-animation-duration: 6s;
+    -o-animation-direction: alternate;
+
+    animation-name: ImgAnimation;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-direction: alternate;
+}
+/* ----------------------------------------------- */
 .case_img_discount {
     width: 764.75px;
     height: 209.27px;
