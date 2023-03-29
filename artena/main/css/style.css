@@ -301,6 +301,14 @@ main {
     background-size: cover;
     z-index: -100;
 }
+@media only screen
+and (width: 390px) 
+and (device-height: 844px)
+and (-webkit-device-pixel-ratio: 3) {
+    .case::before {
+       display: none;
+    }
+}
 .case_text_block_up img {
     width: 514.61px;
 }
@@ -342,6 +350,16 @@ and (-webkit-device-pixel-ratio: 3) {
         max-width: 317.91px;
         max-height: 221.53px;
     }
+    .slideshow {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        max-width: 317.91px;
+        max-height: 241.53px;
+        transform: translate(4.8%, -45.6%);
+    }
+
 }
 /* ----------------------------------------------- */
 .case_img_discount {
