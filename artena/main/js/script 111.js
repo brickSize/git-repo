@@ -1,3 +1,4 @@
+
 /* Slider (work in progress)
  * 03/09/2015 by Andrew Errico
  */
@@ -13,7 +14,7 @@ $(function() {
     
     $n = $('.slide').length; //number of slides
     $w = $('.slide').width(); // slide width
-  	$c = $('.slideshow').width(); // container width
+  	$c = $('.container').width(); // container width
    	$ss = $n * $w; // slideshow width
   
   	
