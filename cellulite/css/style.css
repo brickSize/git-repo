@@ -1,50 +1,45 @@
-/* Обнуление */
-*,
-*::before,
-*::after {
+*, *:after, *:before {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
-    border: 0;
-    box-sizing: border-box;
     transition: .5s ease-in-out;
     /* добавим плавность переходов для всех элементов страницы*/
-}
-a {
+ }
+ ul {
+    list-style: none;
+ }
+ a {
     text-decoration: none;
     outline: none;
-}
-ul,
-ol,
-li {
-    list-style: none;
-}
-img {
-    vertical-align: top;
+ }
+ img {
     display: block;
     width: 100%;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: inherit;
-    font-size: inherit;
-}
-html,
-body {
-    height: 100%;
+ }
+ h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display';
+    font-weight: normal;
+    letter-spacing: 1px;
+ }
+ body {
+    font-family: 'Open Sans', arial, sans-serif;
+    font-size: 14px;
     line-height: 1;
-    font-size: 16px;
-    color: #000;
-    font-family: 
-}
+    color: #373737;
+    background: #f7f7f7;
+ }
  /* добавим очистку потока для всех контейнеров, внутри которых задано обтекание дочерних элементов */
  header:after, .container:after, footer:after, .widget-posts-list li:after, #subscribe:after {
     content: "";
     display: table;
     clear: both;
+ }
+ /* стилевой класс, который управляет шириной контейнера сетки*/
+ .container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+    padding: 0 15px;
  }
 /*------------------------главный контейнер---------------*/
 .wrapper {
