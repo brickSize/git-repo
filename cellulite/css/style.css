@@ -32,6 +32,7 @@ h5,
 h6 {
     font-weight: inherit;
     font-size: inherit;
+    color: #FFFFFF;
 }
 html,
 body {
@@ -49,16 +50,16 @@ body {
  }
 /*------------------------главный контейнер---------------*/
 .wrapper {
-    min-height: 100%;
-    background-color: #002C61;
-}
-.container {
-   width: 1920px;
-   height: 100%;
+   min-height: 100%;
+   background-color: #002C61;
 
    background-image: url(/cellulite/css/background_image/Ellipse\ 37.png);
    background-position: top left;
    background-repeat: no-repeat;
+}
+.container {
+   width: 1920px;
+   height: 100%;
 }
 /*------------------------header---------------*/
 header {
@@ -171,7 +172,7 @@ header {
 
    gap: 30px;
 }
-.contact_block_header {
+.header_contact_block {
    display: flex;
    flex-direction: row;
    align-items: center;
@@ -231,3 +232,212 @@ header {
    order: 1;
    flex-grow: 0;
 }
+/*------------------------body---------------*/
+.body_img_block {
+   position: absolute;
+   width: 1165px;
+   height: 737px;
+   left: 948px;
+   top: 558px;
+}
+.main_img {
+   width: 972px;
+   height: 620.9px;
+   left: 950px;
+   top: 558px;
+}
+.second_img {
+   width: 248px;
+   height: 157px;
+   left: 757px;
+   top: 1138px;
+}
+.body_main_text {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 0px;
+   gap: 90px;
+
+   position: absolute;
+   width: 1078px;
+   height: 681px;
+   left: 239px;
+   top: 272px;
+}
+.main_block_top {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 0px;
+   gap: 40px;
+
+   width: 1078px;
+   height: 463px;
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+.main_text_block {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 0px;
+   gap: 31px;
+
+   width: 1078px;
+   height: 352px;
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+.main_text_block h1{
+   width: 1078px;
+   height: 185px;
+
+   font-family: 'Prata';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 72px;
+   line-height: 98px;
+
+   color: #FFFFFF;
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+.main_text_block h3 {
+   width: 894px;
+   height: 70px;
+
+   font-family: 'Circe';
+   font-style: normal;
+   font-weight: 350;
+   font-size: 24px;
+   line-height: 35px;
+
+   color: #FFFFFF;
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+}
+.main_button_block {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 0px;
+   gap: 52px;
+
+   width: 506px;
+   height: 71px;
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+}
+.main_button_conversion button {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   padding: 18px 34px;
+   gap: 10px;
+
+   width: 294px;
+   height: 71px;
+
+   background: #FF002E;
+   border-radius: 51px;
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+.main_button_conversion button p {
+   width: 226px;
+   height: 35px;
+
+   font-family: 'Circe';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 35px;
+
+   color: #FFFFFF;
+}
+.main_button_block a {
+   width: 160px;
+   height: 35px;
+
+   font-family: 'Circe';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 35px;
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+   text-decoration: underline;
+}
+.main_block_bottom {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 0px;
+   gap: 32px;
+
+   width: 657px;
+   height: 128px;
+   
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+}
+.main_block_secondary_text {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   padding: 0px;
+   gap: 33px;
+
+   width: 657px;
+   height: 48px;
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+.secondary_text {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 0px;
+   gap: 22px;
+
+   width: 327px;
+   height: 48px;
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+.secondary_text img {
+   width: 29px;
+   height: 29px;
+}
+.secondary_text p {
+   width: 276px;
+   height: 48px;
+
+   font-family: 'Circe';
+   font-style: normal;
+   font-weight: 350;
+   font-size: 16px;
+   line-height: 24px;
+
+   color: #FFFFFF;
+   }
