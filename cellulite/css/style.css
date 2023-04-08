@@ -53,8 +53,8 @@ body {
    min-height: 100%;
    background-color: #002C61;
 
-   background-image: url(/cellulite/css/background_image/Ellipse\ 37.png);
-   background-position: top left;
+   background-image: url(/cellulite/css/background_image/Ellipse\ 37.png), url(/cellulite/css/background_image/Ellipse\ 36.png);
+   background-position: top left, 700px 300px;
    background-repeat: no-repeat;
 }
 .container {
