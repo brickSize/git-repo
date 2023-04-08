@@ -1,47 +1,233 @@
-*, *:after, *:before {
-    box-sizing: border-box;
+/* Обнуление */
+*,
+*::before,
+*::after {
     padding: 0;
     margin: 0;
+    border: 0;
+    box-sizing: border-box;
     transition: .5s ease-in-out;
     /* добавим плавность переходов для всех элементов страницы*/
- }
- ul {
-    list-style: none;
- }
- a {
+}
+a {
     text-decoration: none;
     outline: none;
- }
- img {
+    color: #FFFFFF;
+}
+ul,
+ol,
+li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
     display: block;
     width: 100%;
- }
- h1, h2, h3, h4, h5, h6 {
-    font-family: 'Playfair Display';
-    font-weight: normal;
-    letter-spacing: 1px;
- }
- body {
-    font-family: 'Open Sans', arial, sans-serif;
-    font-size: 14px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+html,
+body {
+    height: 100%;
     line-height: 1;
-    color: #373737;
-    background: #f7f7f7;
- }
+    font-size: 16px;
+    color: #000;
+    font-family: 
+}
  /* добавим очистку потока для всех контейнеров, внутри которых задано обтекание дочерних элементов */
  header:after, .container:after, footer:after, .widget-posts-list li:after, #subscribe:after {
     content: "";
     display: table;
     clear: both;
  }
- /* стилевой класс, который управляет шириной контейнера сетки*/
- .container {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 960px;
-    padding: 0 15px;
- }
 /*------------------------главный контейнер---------------*/
 .wrapper {
     min-height: 100%;
+    background-color: #002C61;
+}
+.container {
+   width: 1920px;
+   height: 100%;
+
+   background-image: url(/cellulite/css/background_image/Ellipse\ 37.png);
+   background-position: top left;
+   background-repeat: no-repeat;
+}
+/*------------------------header---------------*/
+header {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   height: 96px;
+   width: 100%;
+   padding-top: 45px;
+}
+.header_logo {
+
+}
+.header_block {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   padding: 0px;
+   gap: 232px;
+
+   width: 1223px;
+   height: 46px;
+}
+.navigation_block_header {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 0px;
+   gap: 49px;
+
+   width: 689px;
+   height: 46px;
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+.contact_block_header {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 0px;
+   gap: 30px;
+
+   width: 302px;
+   height: 45px;
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+}
+.menu {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   padding: 9px 20px;
+   gap: 10px;
+
+   width: 150px;
+   height: 42px;
+
+   background: #FFFFFF;
+   border-radius: 31px;
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+.menu img {
+   width: 20px;
+   height: 16px;
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+.menu p {
+   width: 76px;
+   height: 24px;
+
+   font-family: 'Circe';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+}
+.href_navigation {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 0px;
+
+   height: 24px;
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+}
+.ul_href_navigation {
+   display: inline-flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: nowrap;
+
+   gap: 30px;
+}
+.contact_block_header {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 0px;
+   gap: 30px;
+
+   width: 302px;
+   height: 45px;
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+}
+.contact_phone {
+   width: 162px;
+   height: 27px;
+
+   font-family: 'Circe';
+   font-style: normal;
+   font-weight: 350;
+   font-size: 18px;
+   line-height: 27px;
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+.contact_buttons {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   padding: 0px;
+   gap: 20px;
+
+   width: 110px;
+   height: 45px;
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+}
+.phone {
+   width: 45px;
+   height: 45px;
+   background-color: #002C61;
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+}
+.geo {
+   width: 45px;
+   height: 45px;
+   background-color: #002C61;
+
+   flex: none;
+   order: 1;
+   flex-grow: 0;
 }
